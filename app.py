@@ -1,9 +1,9 @@
 import os
 from flask import Flask, jsonify
-from flask_api.config import config
-from flask_api.models import db
-from flask_api.blueprints import todos
-from flask_api.utils import generate_response
+from config import config
+from models import db
+from blueprints import todos
+from utils import generate_response
 
 app = Flask(__name__)
 
