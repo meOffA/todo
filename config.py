@@ -13,10 +13,6 @@ Uid={user};Pwd={password};Encrypt=yes;TrustServerCertificate=no;Connection Timeo
 
 params = urllib.parse.quote_plus(conn)
 conn_str = 'mssql+pyodbc:///?autocommit=true&odbc_connect={}'.format(params)
-#engine = create_engine(conn_str, echo=True)
-
-#print(engine.table_names())
-
 
 class BaseConfig:
     DEBUG = False

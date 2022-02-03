@@ -7,4 +7,6 @@ Jinja2==2.10
 pytz==2018.5
 six==1.11.0
 SQLAlchemy==1.2.10
+pyodbc==4.0.32
 Werkzeug==0.14.1
+
